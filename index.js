@@ -3,7 +3,7 @@
 */
 
 // Grabbing token from config.json
-const { token } = require('./src/config/config.json')
+const { token } = require('./config.json')
 
 // Getting required classes
 const { Client, Intents } = require('discord.js')
