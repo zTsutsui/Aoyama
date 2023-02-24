@@ -2,6 +2,8 @@
       Coded by Tsutsui#3661, Started by July 4th 20222, Almost my birthday. 
 */
 
+// I'm alive
+
 const { token } = require('./config.json')
 const { Client, Intents, MessageEmbed } = require('discord.js')
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
